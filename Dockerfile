@@ -5,6 +5,6 @@ COPY . .
 
 RUN go get -d -v ./...
 RUN go install -v ./...
-RUN mv godatabase app
+RUN go build -o app
 
-CMD ["app"]
+CMD ["./app"]
