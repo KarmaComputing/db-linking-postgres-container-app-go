@@ -1,5 +1,7 @@
 # Go postgres docker example
 
+See also python version: https://github.com/KarmaComputing/db-linking-postgres-container-app-python
+
 - docker --link to container hostname
 - type cast of port number to int
 
